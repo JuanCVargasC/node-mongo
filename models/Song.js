@@ -7,7 +7,7 @@ const  SongSchema =({
         type: Number,
         required: true
     },
-    tittle: {
+    title: {
         type: String,
         required: true
     },

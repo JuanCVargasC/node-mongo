@@ -1,6 +1,6 @@
-const mongoosee = require('mongoose')
+const mongoose = require('mongoose')
 
-const { Schema } = mongoosee
+const { Schema } = mongoose
 
 const AuthorSchema = new Schema({
     id: {
@@ -10,7 +10,7 @@ const AuthorSchema = new Schema({
     },
     name: {
         type: String,
-        required: true        
+        required: true
     },
     birthay: {
         type: Date,
@@ -25,4 +25,4 @@ const AuthorSchema = new Schema({
 
 })
 
-module.exports = mongoosee.model('author',AuthorSchema)
+module.exports = mongoose.model('author', AuthorSchema)
