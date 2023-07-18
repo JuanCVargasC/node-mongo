@@ -17,7 +17,7 @@ const  SongSchema =({
     },
     author: {
         type: Schema.Types.ObjectId,
-        ref: author
+        ref: 'author'
     }
 })
 

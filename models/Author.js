@@ -19,7 +19,7 @@ const AuthorSchema = new Schema({
     song: [
         {
             type: Schema.Types.ObjectId,//alamacena id obejto
-            ref: song
+            ref: 'song'
         }
     ]
 

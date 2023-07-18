@@ -4,4 +4,7 @@ const {
     index
 }=require('../controllers/controll-authors')
 route.get('/',index)
-module.exports = route
+route.post('/',save)
+module.exports = route;
+
+
