@@ -11,4 +11,4 @@ mongoose.set('strictQuery',false)
  .then(()=>console.log('Connect BD success'))
  .catch(e=>console.log(e))
 
- module.exports = mongoose
+ module.exports = mongoose 
